@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7aa6cd;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #0366d6;
+    font-size: 28px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 16px;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-container,
+.repositories-container,
+.search-history-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.clear-button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+    background-color: #c82333;
+}
